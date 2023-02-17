@@ -1,0 +1,33 @@
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "email": "adit@gmail.com",
+  "password": "password"
+}
+
+###
+GET localhost:8080/users
+
+### Companies Endpoints
+###
+POST localhost:8080/companies
+Content-Type: application/json
+
+{
+  "name": "PT. Rungkad"
+}
+
+###
+GET localhost:8080/companies
+
+###
+POST localhost:8080/companies/3/employees
+Content-Type: application/json
+
+{
+  "name": "Ucok"
+}
+
+###
+GET localhost:8080/companies/3/employees
